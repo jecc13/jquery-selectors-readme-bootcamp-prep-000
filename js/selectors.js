@@ -7,3 +7,7 @@ function lastImageSelector() {
   return ('img:last');
 }
 
+function ninjaBabySelector() {
+  $('#baby-ninja');
+}
+
