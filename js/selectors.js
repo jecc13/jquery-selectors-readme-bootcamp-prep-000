@@ -16,7 +16,7 @@ function divSelector() {
 }
 
 function firstListItem() {
-  return $('li #pic-list:first-child');
+  return $('li ul#pic-list:first-child');
 }
 
 
@@ -25,4 +25,5 @@ Because we want to select the first image inside a div, we put div first. Next c
 $('div img:first-child')
 
 
+Write a function firstListItem that does not accept any parameters. The function should use a first-child selector to return the first list item in the ul with the ID pic-list.
 */
