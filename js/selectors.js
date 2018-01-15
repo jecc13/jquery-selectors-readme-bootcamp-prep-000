@@ -17,6 +17,13 @@ function divSelector() {
 
 function firstListItem() {
   return $('ul#pic-list:first-child');
+  
   $('div img:first-child')
   
 }
+
+
+
+Because we want to select the first image inside a div, we put div first. Next comes the element we want to select, which is img, followed by :first-child:
+
+$('div img:first-child')
