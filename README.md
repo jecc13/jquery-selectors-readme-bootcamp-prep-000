@@ -1,4 +1,4 @@
-pwd# jQuery Selectors
+# jQuery Selectors
 
 ## Objectives
 
